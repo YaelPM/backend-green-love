@@ -1,4 +1,4 @@
-const bd = require('../configMysql')
+const bd = require('../configMySql')
 
 module.exports = {
     getAllUsers: (callback) => {
