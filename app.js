@@ -10,6 +10,18 @@ var plantsRouter = require('./routes/plants');
 
 var app = express();
 
+// const firebase = require('firebase');
+// var firebaseConfig = {
+// apiKey: "AIzaSyA8Btc1-0szkchuR4PuDL5V_Vm3K-9cpd4",
+// authDomain: "green-love-92554.firebaseapp.com",
+// projectId: "green-love-92554",
+// storageBucket: "YOUR PROJECT.appspot.com",
+// messagingSenderId: "MESSAGING ID",
+// appId: "YOUR APP ID"
+// };
+// // Initialize Firebase
+// firebase.initializeApp(firebaseConfig);
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');

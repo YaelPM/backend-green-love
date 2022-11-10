@@ -1,10 +1,10 @@
 const mysql = require('mysql');
 
 const config = {
-    host : 'localhost',
-    user : 'greenlove',
+    host : '44.212.29.242',
+    user : 'root',
     database: 'greenlovebackend',
-    password: 'greenlove',
+    password: 'root',
 };
 
 const conexion = mysql.createConnection(config);
