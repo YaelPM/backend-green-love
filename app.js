@@ -12,12 +12,12 @@ var app = express();
 
 // const firebase = require('firebase');
 // var firebaseConfig = {
-// apiKey: "AIzaSyA8Btc1-0szkchuR4PuDL5V_Vm3K-9cpd4",
-// authDomain: "green-love-92554.firebaseapp.com",
-// projectId: "green-love-92554",
-// storageBucket: "YOUR PROJECT.appspot.com",
-// messagingSenderId: "MESSAGING ID",
-// appId: "YOUR APP ID"
+//   apiKey: "AIzaSyDdxXOlKjGwiXtSv2lsUO3Mxw6-McBpTDU",
+//   authDomain: "green-love-92554.firebaseapp.com",
+//   projectId: "green-love-92554",
+//   storageBucket: "green-love-92554.appspot.com",
+//   messagingSenderId: "56308351675",
+//   appId: "1:56308351675:web:e9c862804984647ad55f9e"
 // };
 // // Initialize Firebase
 // firebase.initializeApp(firebaseConfig);

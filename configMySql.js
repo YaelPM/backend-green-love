@@ -1,10 +1,11 @@
 const mysql = require('mysql');
+require('dotenv').config()
 
 const config = {
-    host : '44.212.29.242',
-    user : 'root',
-    database: 'greenlovebackend',
-    password: 'root',
+    host : process.env.HOST,
+    user : process.env.USER,
+    database: process.env.DATABASE,
+    password: process.env.PASSWORD,
 };
 
 const conexion = mysql.createConnection(config);
